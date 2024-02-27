@@ -1,33 +1,15 @@
-import React, {Component} from "react";
+import React from "react";
+import ExperienceItems from "./ExperienceItems";
 import { experience } from "../Text";
 
-export default class Experience extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {counter: 0};
-        this.experience = experience;
-        //this.handleClick = this.handleClick.bind(this);
-    }
 
-    render() {
-        return (
-            <>
-                <div className="experience">
-                    {this.experience.map(item => (
-                        <ul>
-                            <li>
-                                <h3>{item.company}<em>{item.date}</em></h3>
-                                <h4>{item.role}</h4>
-                                <ul className="skills">
-                                {item.tasks.map(skill => (
-                                    <li>{skill}</li>
-                                ))}
-                                </ul>
-                            </li>
-                        </ul>
-                    ))}
-                </div>
-            </>
-        )
-    }
+export default function Experience () {
+    return (
+        <div className="section">
+            <div className="section-content" id="experience">
+                <h1>Experience</h1>
+                <ExperienceItems />
+            </div>
+        </div>
+    )
 }

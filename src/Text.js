@@ -1,6 +1,12 @@
 import * as parse from "html-react-parser";
-export const about = "Hello I am Gui  👋  experienced Lead Software Engineer with a strong track record of delivering innovative solutions across diverse industries. Proficient in leading Agile teams and managing complex projects, I specialise in translating abstract concepts into practical results. Noteworthy achievements include implementing best  practices through exceptional project delivery and mentoring junior team members to foster growth and productivity. Additionally, I have optimised government portals and APIs for enhanced accessibility and spearheaded the implementation of cloud-native solutions. Committed to ongoing learning and embracing new technological advancements, I am dedicated to driving innovation and inspiring team excellence.";
-export const skills = "Programming Languages: Java, JavaScript, Python";
+export const about = {
+    title: "About",
+    text: "Hello I am Gui  👋  experienced Lead Software Engineer with a strong track record of delivering innovative solutions across diverse industries. Proficient in leading Agile teams and managing complex projects, I specialise in translating abstract concepts into practical results. Noteworthy achievements include implementing best  practices through exceptional project delivery and mentoring junior team members to foster growth and productivity. Additionally, I have optimised government portals and APIs for enhanced accessibility and spearheaded the implementation of cloud-native solutions. Committed to ongoing learning and embracing new technological advancements, I am dedicated to driving innovation and inspiring team excellence."
+};
+export const skills = {
+    title: "Skills",
+    text: "Programming Languages: Java, JavaScript, Python"
+};
 export const portifolio = [
     {
         company: "NHS Digital - Kin + Carta Europe",
@@ -132,4 +138,6 @@ export const experience = [
         ]
     },
 ];
-export const contact = "";
+export const contact = {
+    title: "Contact"
+};

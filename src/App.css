@@ -93,13 +93,15 @@ h3, h4 {
   cursor: pointer;
 }
 
-.section {
-}
-
-.section-dark {
+.section:nth-child(even) {
   background: #333;
   color: white;
 }
+
+/*.section-dark {*/
+/*  background: #333;*/
+/*  color: white;*/
+/*}*/
 
 .section-content {
   max-width: 800px;

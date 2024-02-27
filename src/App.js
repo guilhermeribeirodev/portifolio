@@ -1,44 +1,21 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
-import * as text from "./Text";
+import About from "./Components/About";
+import Skills from "./Components/Skills";
+import Portifolio from "./Components/Portifolio";
+import Experience from "./Components/Experience";
+import Contact from "./Components/Contact";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <Section
-          title="About"
-          text={text.about}
-          dark={true}
-          id="section1"
-        >
-        </Section>
-        <Section
-          title="Skills"
-          text={text.skills}
-          dark={false}
-          id="section2"
-        />
-        <Section
-          title="Portifolio"
-          text={text.portifolio}
-          dark={true}
-          id="section3"
-        />
-        <Section
-          title="Experience"
-          text={text.experience}
-          dark={false}
-          id="section4"
-        />
-        <Section
-          title="Contact"
-          text={text.contact}
-          dark={true}
-          id="section5"
-        />
+        <About />
+        <Skills />
+        <Portifolio />
+        <Experience />
+        <Contact />
       </div>
     );
   }
