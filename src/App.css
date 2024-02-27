@@ -6,7 +6,6 @@ html, body {
   margin: 0;
   height: 100%;
   width: auto;
-
 }
 
 a {
@@ -18,8 +17,10 @@ a:hover {
   text-decoration: underline;
 }
 
-p {
-  text-align: justify;
+p , .skills li{
+  /*text-align: justify;*/
+  font-family: monospace;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -28,6 +29,10 @@ h1 {
 
 h3, h4 {
   margin: 0;
+}
+
+li {
+  font-size: 1.2em;
 }
 
 .nav {
@@ -123,7 +128,7 @@ h3, h4 {
   background: dimgrey;
   border-radius: 7px;
   padding: 10px;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
   width: -webkit-fill-available;
 }
 
@@ -150,6 +155,11 @@ h3, h4 {
 .skills li::before {
   content: "🤖";
   margin-right: 2px;
+}
+
+.skills em {
+  font-style: normal;
+  font-weight: bold;
 }
 
 .social-media {

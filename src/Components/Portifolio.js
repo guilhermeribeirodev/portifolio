@@ -7,7 +7,7 @@ export default function Portifolio (){
         <div className="section">
             <div className="section-content" id="portifolio">
                 <h1>Portifolio</h1>
-                <PortifolioItem/>
+                <PortifolioItem />
             </div>
         </div>
     )

@@ -5,7 +5,44 @@ export const about = {
 };
 export const skills = {
     title: "Skills",
-    text: "Programming Languages: Java, JavaScript, Python"
+    text: [
+        {
+           area: "Programming Languages: ",
+           tools:  "Java, JavaScript, Python"
+        },
+        {
+            area: "Frameworks: ",
+            tools:  "Spring, Hibernate, Play"
+        },
+        {
+            area: "Libraries: ",
+            tools:  "NodeJS, ReactJS, jQuery"
+        },
+        {
+            area: "Software Development Methods: ",
+            tools:  "Agile/SCRUM, Lean Start up"
+        },
+        {
+            area: "Development Tools: ",
+            tools:  "Iterm, Sublime Text, IntelliJ, Visual Studio Code, Git"
+        },
+        {
+            area: "Operating Systems: ",
+            tools:  "Linux, macOS"
+        },
+        {
+            area: "Cloud Providers: ",
+            tools:  "AWS, GCP, Azure"
+        },
+        {
+            area: "Management Skills: ",
+            tools:  "Project Management, Technical Leadership, Liaising with Stakeholders"
+        },
+        {
+            area: "Leadership Strengths: ",
+            tools:  "Mentoring, Designing Training Materials, 1-1 Skills Training"
+        },
+    ]
 };
 export const portifolio = [
     {
