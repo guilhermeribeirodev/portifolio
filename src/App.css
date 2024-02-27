@@ -1,0 +1,173 @@
+:root {
+  --off-white: #fafafa;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: auto;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+.nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  /*z-index: 1000;*/
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.section-white h1, .section-white h3, .section-white h4{
+  color: #555555;
+}
+
+@media only screen and (max-width:480px){
+  .nav {
+    display: none;
+  }
+}
+
+.profile-picture {
+  height: 240px;
+  width: 250px;
+  display: block;
+  padding-top: 69px;
+  margin: 0 auto;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  /*max-width: 900px;*/
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.skills li {
+  list-style: none;
+}
+
+.skills li::before {
+  content: "🚀 ";
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+}
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.portifolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.portifolio-item {
+  /*border: 1px solid blue;*/
+  background: dimgrey;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 4px;
+  width: -webkit-fill-available;
+}
+
+.portifolio-item em, .experience em {
+  float: right;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.experience ul {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.experience li {
+  list-style: none;
+}
+
+.skills li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+.skills li::before {
+  content: "🤖";
+  margin-right: 2px;
+}
+
+.social-media {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-media ul {
+  list-style-type: none; /*to remove bullets*/
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  display:table;
+  overflow: hidden;
+}
+.social-media li{
+  float: left;
+  padding: 2px;
+  width: 100px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
