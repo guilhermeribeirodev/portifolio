@@ -18,8 +18,8 @@ export default class ExperienceItems extends Component {
                             <li>
                                 <h3>{item.company}<em>{item.date}</em></h3>
                                 <h4>{item.role}</h4>
-                                <ul className="skills">
-                                {item.tasks.map(skill => (
+                                <ul className="experiences">
+                                {item.tasks?.map(skill => (
                                     <li>{skill}</li>
                                 ))}
                                 </ul>

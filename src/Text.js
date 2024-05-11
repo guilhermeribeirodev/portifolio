@@ -76,18 +76,19 @@ export const experience = [
         date: "(October 2020 - October 2023)",
         role: "Lead/Senior Software Engineer",
         tasks: [
-            "Led an Agile project team comprised of 8 software engineers in the rearchitecture of the gov.uk portals and APIs, prioritising improvements in accessibility and usability.",
-            "Implemented continuous integration/continuous deployment (CI/CD) pipelines for 2 projects, resulting in a significant reduction in software release times by 3 weeks.",
-            "Introduced unit testing and Test-Driven Development (TDD) methodologies, resulting in a 40% reduction in debugging time and enhancing overall software quality.",
-            "Acted as a liaison between key stakeholders, including GOV UK and UX research teams, to develop accessible interfaces that meet regulatory standards and user needs.",
-            "Successfully secured an additional £3 million contract to extend services for the client, demonstrating leadership in business development and client relationship management.",
-            "Spearheaded the creation of serverless and cloud-native solutions in AWS, Azure, and Google Cloud, optimising scalability and reducing infrastructure costs.",
-            "Conducted research and development, including Proof of Concept (PoC) initiatives with OpenAI, VectorDBs, and machine learning technologies, exploring innovative solutions to meet evolving project requirements.",
-            "Co-led an Agile project team comprising 10 software engineers to develop a bespoke system.",
-            "Designed and constructed an infrastructure empowering NHS staff to autonomously establish Covid test sites nationwide, resulting in a significant cost-saving of £2 million in taxpayer funds.",
-            "Implemented DevOps practices to foster collaboration among team members, resulting in a 15% increase in project delivery speed.",
-            "Leveraged serverless architecture utilising cloud providers such as AWS Lambda and Azure App Services, enhancing scalability and reducing operational overhead.",
-            "Maintained end-to-end integration tests with Cypress, ensuring the reliability and functionality of the system throughout its lifecycle.",
+            "🚀 Led an Agile project team comprised of 8 software engineers and testers in the re-architecture of some gov.uk portals and APIs, prioritising improvements in security, accessibility and usability.",
+            "🚀 Co-implemented continuous integration/continuous deployment (CI/CD) pipelines alongside DevOps team for 2 projects, resulting in a significant reduction in software release times by 3 weeks.",
+            "🚀 Introduced unit testing and Test-Driven Development (TDD) methodologies, resulting in a 40% reduction in debugging time and enhancing overall software quality.",
+            "🚀 Developing API endpoints specification with OpenAPI / Swagger / API gateway.",
+            "🚀 Backend development of Restful API’s using Java and NodeJS on Azure App Services connecting to Cosmos DB ( NoSQL ) and third party UK GOV services.",
+            "🚀 Creating cloud native architecture for Java Backend and ReactJS frontend in Cloud Run.",
+            "🚀 Setting up Compute Engine instances for running Java applications.",
+            "🚀 Setting up RDBMS in SQL.",
+            "🚀 Developed backend API in NodeJS and Java with AWS Lambda and SNS/SQS.",
+            "🚀 Developed endpoints in API gateway with OpenAPI / Swagger / terraform.",
+            "🚀 Implemented DevOps practices to foster collaboration among team members, resulting in a 15% increase in project delivery speed.",
+            "🚀 Leveraged cloud native architecture utilising cloud providers such as AWS Lambda and Azure App Services, Terraform enhancing scalability and reducing operational overhead.",
+            "🚀 Maintained end-to-end integration tests with Cypress, ensuring the reliability and functionality of the system throughout its lifecycle."
         ]
     },
     {
@@ -95,11 +96,12 @@ export const experience = [
         date: "(January 2020 – August 2020)",
         role: "Senior Software Engineer",
         tasks: [
-            "Led the development of innovative products in the travel industry using Java 11/Kotlin, contributing to the company's strategic goals.",
-            "Managed the maintenance and migration of multiple microservices, transitioning from a monolithic to a modern architecture.",
-            "Played a key role in Agile development, participating in sprint planning, stand-ups, and retrospectives for timely delivery.",
-            "Implemented a microservices architecture with Spring Boot and AWS SQS/SNS to enhance system performance and scalability.",
-            "Provided mentorship and technical support to junior engineers, fostering a culture of continuous learning and skill development within the team."
+            "🚀 Development of innovative products in the travel industry using Java 11/Kotlin, contributing to the company's strategic goals.",
+            "🚀 Orchestrating microservices to handle streams of content categorisation after publishing it using AWS SQS/SNS and Lambda to integrate with internal Data Scientists API and SEO team.",
+            "🚀 Played a key role in Agile development, participating in sprint planning, stand-ups, and retrospectives for timely delivery.",
+            "🚀 Implemented API’s and Services in self deployable micro services using terraform and creating reusable templates when necessary.",
+            "🚀 Provided mentorship and technical support to junior engineers, fostering a culture of continuous learning and skill development within the team.",
+            "🚀 Implemented and advocate Test Driven Development with Mockito, Cucumber and Spock frameworks."
         ]
 
     },
@@ -108,12 +110,12 @@ export const experience = [
         date: "October 2018 - January 2020",
         role: "Senior Java Engineer / DevOps",
         tasks: [
-            "Spearheaded the development of a new backend API utilising Spring/Java8 and frontend using React to modernise the user interface.",
-            "Implemented comprehensive test cases using Mockito and Spring tests to ensure robustness and reliability of the system.",
-            "Actively participated in Scrum ceremonies, including daily stand-up meetings and sprint planning sessions, to maintain project alignment and progress.",
-            "Leveraged various AWS services for multiple aspects of the project, optimizing performance and scalability.",
-            "Orchestrated the integration of desktop agents with a web portal tailored for medium-sized companies, enhancing accessibility and usability.",
-            "Key projects include Connectwise integration and development of a new RMM (Remote Monitoring and Management) frontend, streamlining operations and improving client services."
+            "🚀 Spearheaded the development of a new backend API utilising Spring Boot /Java8 and frontend using React to modernise the user interface.",
+            "🚀 Implemented comprehensive test cases using Mockito and Spring tests to ensure robustness and reliability of the system.",
+            "🚀 Actively participated in Scrum ceremonies, including daily stand-up meetings and sprint planning sessions, to maintain project alignment and progress within an international team.",
+            "🚀 Leveraged various AWS services for multiple aspects of the project, optimising performance and scalability.",
+            "🚀 Orchestrated the integration of desktop agents through a web portal tailored for medium-sized companies, enhancing accessibility and usability.",
+            "🚀 Developed API’s with Spring Boot using Java 8 and Groovy."
         ]
     },
     {
@@ -121,58 +123,29 @@ export const experience = [
         date: "April 2018 - October 2018",
         role: "Senior Java Engineer / DevOps",
         tasks: [
-            "Leveraging microservices architecture with Spring Boot and PostgreSQL, ensuring scalability and maintainability.",
-            "Implemented test-driven development (TDD) and behaviour-driven development (BDD) methodologies, utilising tools such as Cucumber, to ensure comprehensive test coverage and high software quality.",
-            "Designed and developed a test environment using Docker Compose, enabling efficient testing and deployment of microservices in a controlled environment.",
-            "Collaborated with cross-functional teams to prioritise features and enhancements, translating business requirements into technical specifications and actionable tasks for the engineering team."
+            "🚀 Leveraging microservices architecture with Spring Boot and PostgreSQL, ensuring scalability and maintainability.",
+            "🚀 Implemented integration with highly sensitive data exposing user authorised data via API’s built using OpenAPI, JPA, Docker, Spring Security and JWT.",
+            "🚀 Designed and developed a test environment using Docker Compose, enabling efficient testing and deployment of microservices in a controlled environment.",
+            "🚀 Collaborated with cross-functional teams to prioritise features and enhancements, translating business requirements into technical specifications and actionable tasks for the engineering team."
         ]
     },
     {
         company: "Stage Intelligence - London, UK",
         date: "November 2016 - April 2018",
         role: "Senior Java Engineer / DevOps",
-        tasks: [
-            "Maintained and enhanced the JavaEE web application stack, utilising technologies such as PostgresSQL, JPA, Hibernate, Eclipse Link, JSF, Primefaces, and AJAX.",
-            "Managed the core application responsible for processing data from third-party APIs, ensuring its continued functionality and optimisation.",
-            "Oversaw maintenance tasks for an Android application, ensuring its compatibility and performance.",
-            "Developed and executed tests following best practices using Arquillian, JUnit, TestNG, and Hamcrest.",
-            "Managed the Bico Console and Core, overseeing operations related to bike-sharing scheme management.",
-            "Led the migration from monolith to Microservices as part of the DevOps initiative.",
-            "Created service layers utilising EJB, JPA, and Hibernate to improve modularity and maintainability.",
-            "Dockerised applications to improve deployment efficiency and scalability.",
-            "Designed and implemented internationalisation architecture to support multiple languages.",
-            "Generated reports to provide insights into system usage and performance.",
-        ]
+
     },
     {
         company: "Supero IT - Florianópolis, Brazil",
         date: "March 2014 – February 2016",
-        role: "Lead Java Engineer",
-        tasks: [
-            "Leading the development effort across the full Java Enterprise Edition (JEE) application stack, ensuring seamless integration and robust functionality.",
-            "Translating abstract specifications into executable code, driving project progress efficiently.",
-            "Mentoring junior developers to overcome technical hurdles and elevate team productivity.",
-            "Designing customised training materials for new recruits, facilitating rapid skill acquisition.",
-            "Guiding a unified team in optimising system performance and spearheading the development of independent services."
-        ]
+        role: "Medium Java Engineer",
+
     },
     {
         company: "Smartbill S.A - São Paulo, Brazil",
         date: "May 2012 – March 2014",
         role: "Jr. Java / PHP Developer",
-        tasks: [
-            "Spearheading development across a diverse range of websites and web applications.",
-            "Generating and delivering testing reports as needed.",
-            "Facilitating stakeholder meetings to enhance the business model.",
-            "Developing APIs using SOAP, JavaEE6, and Oracle for Smartbill.",
-            "Creating web clients with ZK Framework and Jetty.",
-            "Building the Smartbill website and documentation using PHP, MySQL, HTML5, JavaScript & CSS.",
-            "Integrating vendor APIs into client applications.",
-            "Maintaining legacy Smartbill systems with ASP/VB6.",
-            "Managing tasks and daily meetings using Jira Kanban.",
-            "Handling environments on Amazon AWS EC2 and S3.",
-            "Developing CMS, websites, and mobile apps in PHP and Java.",
-        ]
+
     },
 ];
 export const contact = {
